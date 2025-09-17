@@ -8,6 +8,8 @@ public class Main
         f.simulateOneDay(22);
         //System.out.println(Math.random() < 0.05);
         System.out.println(f.simulateManyDays(10, 4) + " days");
+        System.out.println(f.simulateManyDays(10,5) + " days");
+        System.out.println(f.simulateManyDays(5,10) + " days");
         System.out.println(f.getCurrentFood());
     }
 }
